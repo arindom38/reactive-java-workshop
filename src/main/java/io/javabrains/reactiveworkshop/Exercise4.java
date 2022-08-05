@@ -8,6 +8,12 @@ public class Exercise4 {
 
         // Use ReactiveSources.intNumberMono()
 
+        /*Mono VS FLUX
+         *
+         * Mono: return 0 or 1 times
+         * Flux: return 0 or n times
+         * */
+
         // Print the value from intNumberMono when it emits
         //non blocking code
         ReactiveSources.intNumberMono().subscribe(number -> System.out.println(number));
