@@ -20,7 +20,7 @@ public class Exercise4 {
          * Main Difference between mono and flux:
          *
          * When an item or 0 item comes in MONO , no other items come after that , only a terminal events executed and mono is completed
-         * In FLUX, there can be multiple items , but when items finished without ant error a complete event executed , else a failure event
+         * In FLUX, there can be multiple items , but when items finished without ant error a complete event executed , else a failtu
          *
          * */
 
