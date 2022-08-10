@@ -12,6 +12,16 @@ public class Exercise4 {
          *
          * Mono: return 0 or 1 times
          * Flux: return 0 or n times
+         *
+         * What's coming from a Mono or Flux Source?
+         * 1. An item
+         * 2. A complete Event / A failure Event (Terminal events)
+         *
+         * Main Difference between mono and flux:
+         *
+         * When an item or 0 item comes in MONO , no other items come after that , only a terminal events executed and mono is completed
+         * In FLUX, there can be multiple items , but when items finished without ant error a complete event executed , else a failure event
+         *
          * */
 
         // Print the value from intNumberMono when it emits
